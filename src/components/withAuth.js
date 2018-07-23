@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import AuthService from './AuthService';
 
 export default function withAuth(AuthComponent) {
-    const Auth = new AuthService('https://bm-authentication-service.herokuapp.com/token');
+    const Auth = new AuthService('https:// Api buraya yazacan sağkakide token oldoğu dizi get isteği   /token');
     return class AuthWrapped extends Component {
 
         constructor() {
